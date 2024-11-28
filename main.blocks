@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="933wi!uv~5XwSw4FeSo{" x="325" y="-272"><statement name="HANDLER"><block type="device_print_message" id="e+70k/2AN0HYM6*)aOai"><value name="text"><shadow type="text" id="#2|T/u]BNXEEY*|z*V+c"><field name="TEXT">Hola!</field></shadow></value><next><block type="device_show_leds" id="`Y}(Gw!EMe1^=Dr-}M}."><field name="LEDS">`
+        . . . # . 
+        . . # . . 
+        . # # # . 
+        . # # . . 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="IS-4)6]fs5IAq.5W^r~Z" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="g/6g%R}Q!kA`cm5o(Y;5"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # . # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_print_message" id="Q22lk(tqYIWRXI45_O]/"><value name="text"><shadow type="text" id="v=+E]$Ty,UC_[S:hrtfF"><field name="TEXT">Roblox</field></shadow></value></block></next></block></statement></block><block type="input_logo_event" id="=nzi-I/7xT*vgZg(osJO" x="332" y="246"><field name="action">TouchButtonEvent.LongPressed</field><statement name="HANDLER"><block type="device_print_message" id="2/Z_nbf.pF8njV6Xt)OI"><value name="text"><shadow type="text" id="4tQde~,xMoDrz1Hs;5O)"><field name="TEXT">#jazzghost</field></shadow></value></block></statement></block><block type="device_gesture_event" id="PZgT$c~9VsBW@Y.c(ga#" x="172" y="430"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="device_print_message" id="EEns{,exC0mkXlD*t@xd"><value name="text"><shadow type="text" id="e[,;;vU;^DDLo.9;]4YW"><field name="TEXT">carregando</field></shadow></value></block></statement></block><block type="device_button_event" id="@^;$(g$Ec(|g8Iy{q(p3" x="-171" y="571"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="music_playable_play" id="UxJm$1OfL|tDSJNJ`XU9"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="^X*0FIqe{X.ZE`Xn]@)m"><value name="melody"><shadow type="melody_editor" id="O{%W?z|~)4Bjq1E1o:z^"><field name="melody">"- - - - - - - - "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="0oZ`Iuq0$3[Tl?Li8?wt"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></statement></block></xml>
